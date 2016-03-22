@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:text="Intel Core i7-6700K 4.0GHz Quad-Core Processor"
+			android:background="#54547B"
+			android:textColor="#FFFFFF"
+			android:layout_marginTop="10dp"
+			android:paddingLeft="20dp"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"/>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/item_border">
+
+		<ImageView
+			android:layout_height="150dp"
+			android:layout_width="150dp"
+			android:src="@android:drawable/ic_delete"
+			android:id="@+id/itemdetailsImageView1"
+			android:background="@drawable/item_border"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Intel Core i7-6700K"
+			android:layout_toRightOf="@id/itemdetailsImageView1"
+			android:id="@+id/itemdetailsTextView1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="BX80662I76700K"
+			android:layout_below="@id/itemdetailsTextView1"
+			android:layout_toRightOf="@id/itemdetailsImageView1"
+			android:id="@+id/itemdetailsTextView2"/>
+
+		<RatingBar
+			android:layout_height="25dp"
+			android:layout_width="wrap_content"
+			android:isIndicator="true"
+			android:layout_below="@id/itemdetailsTextView2"
+			style="?android:attr/ratingBarStyleSmall"
+			android:id="@+id/chooseitemRatingBar1"
+			android:layout_toRightOf="@id/itemdetailsImageView1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="(5.0 Average, 75 Ratings)"
+			android:layout_below="@id/chooseitemRatingBar1"
+			android:layout_toRightOf="@id/itemdetailsImageView1"/>
+
+	</RelativeLayout>
+
+	<android.support.v4.view.ViewPager
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/viewpager">
+		<android.support.v4.view.PagerTitleStrip
+			android:id="@+id/pager_title_strip"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="top"
+			android:background="#33b5e5"
+			android:textColor="#fff"
+			android:paddingTop="4dp"
+			android:paddingBottom="4dp" />
+		
+	</android.support.v4.view.ViewPager>
+
+</LinearLayout>
+

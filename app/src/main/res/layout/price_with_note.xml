@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:background="@drawable/item_border"
+	android:layout_marginTop="10dp">
+
+	<ImageView
+		android:layout_height="55dp"
+		android:layout_width="110dp"
+		android:src="@android:drawable/ic_delete"
+		android:layout_alignParentLeft="true"
+		android:id="@+id/viewpriceImageView1"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="$339.99"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="15dp"
+		android:layout_marginRight="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="NOTE: In store pick-up only"
+		android:layout_below="@id/viewpriceImageView1"
+		android:layout_centerHorizontal="true"
+		android:background="#D3F8BB"
+		android:layout_marginTop="5dp"
+		android:padding="10dp"
+		android:layout_marginBottom="5dp"/>
+
+</RelativeLayout>

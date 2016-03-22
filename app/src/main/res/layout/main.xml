@@ -1,11 +1,157 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#4E4E4E"
+		android:gravity="center"
+		android:padding="10dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="Pick Parts."
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="Build Your PC."
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="Compare and Share."
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#252935"
+		android:paddingBottom="15dp"
+		android:gravity="center"
+		android:layout_marginLeft="55dp"
+		android:layout_marginRight="55dp"
+		android:layout_marginTop="10dp"
+		android:paddingTop="15dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="Start A"
+			android:textColor="#D1B645"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="System Build"
+			android:textColor="#FFFFFF"
+			android:paddingTop="5dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#252935"
+		android:paddingBottom="15dp"
+		android:gravity="center"
+		android:layout_marginLeft="55dp"
+		android:layout_marginRight="55dp"
+		android:layout_marginTop="10dp"
+		android:paddingTop="15dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="Browse By"
+			android:textColor="#D1B645"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Individual Parts"
+			android:textColor="#FFFFFF"
+			android:paddingTop="5dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#252935"
+		android:paddingBottom="15dp"
+		android:gravity="center"
+		android:layout_marginLeft="55dp"
+		android:layout_marginRight="55dp"
+		android:layout_marginTop="10dp"
+		android:paddingTop="15dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="View The"
+			android:textColor="#D1B645"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Build Guides"
+			android:textColor="#FFFFFF"
+			android:paddingTop="5dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#252935"
+		android:paddingBottom="15dp"
+		android:gravity="center"
+		android:layout_marginLeft="55dp"
+		android:layout_marginRight="55dp"
+		android:layout_marginTop="10dp"
+		android:paddingTop="15dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="See All"
+			android:textColor="#D1B645"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Completed Builds"
+			android:textColor="#FFFFFF"
+			android:paddingTop="5dp"/>
+
+	</LinearLayout>
 
 </LinearLayout>
+

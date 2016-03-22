@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:background="@drawable/item_border"
+	android:layout_marginLeft="10dp"
+	android:layout_marginTop="10dp"
+	android:layout_marginRight="10dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="title"
+		android:id="@+id/chooseitemTextView1"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="5dp"/>
+
+	<ImageView
+		android:layout_height="75dp"
+		android:layout_width="75dp"
+		android:src="@android:drawable/ic_delete"
+		android:layout_below="@id/chooseitemTextView1"
+		android:id="@+id/chooseitemImageView1"
+		android:layout_marginLeft="5dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="price"
+		android:layout_below="@id/chooseitemTextView1"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="7dp"/>
+
+	<RatingBar
+		android:layout_height="25dp"
+		android:layout_width="wrap_content"
+		android:isIndicator="true"
+		android:layout_below="@id/chooseitemImageView1"
+		style="?android:attr/ratingBarStyleSmall"
+		android:id="@+id/chooseitemRatingBar1"
+		android:layout_marginLeft="5dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="(0)"
+		android:layout_toRightOf="@id/chooseitemRatingBar1"
+		android:layout_below="@id/chooseitemImageView1"
+		android:layout_marginLeft="3dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:text="info1"
+		android:layout_below="@id/chooseitemRatingBar1"
+		android:layout_marginTop="5dp"
+		android:id="@+id/chooseitemTextView2"
+		android:layout_marginLeft="5dp"
+		android:background="@drawable/item_border"
+		android:layout_marginRight="5dp"
+		android:padding="5dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:text="info2"
+		android:layout_below="@id/chooseitemTextView2"
+		android:id="@+id/chooseitemTextView3"
+		android:layout_marginLeft="5dp"
+		android:background="@drawable/item_border"
+		android:layout_marginRight="5dp"
+		android:layout_marginTop="-5dp"
+		android:padding="5dp"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_below="@id/chooseitemTextView3"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:background="@drawable/item_border">
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="View"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Add"
+			android:layout_marginLeft="10dp"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

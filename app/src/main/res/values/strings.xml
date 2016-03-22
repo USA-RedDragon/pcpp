@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">PCPartPicker</string>
-    <string name="hello_world">Hello world!</string>
-
+	<string name="price_tab">Prices</string>
+	<string name="spec_tab">Specs</string>
+	<string name="build_tab">Builds</string>
+	<string name="review_tab">Reviews</string>
 </resources>

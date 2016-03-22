@@ -1,0 +1,17 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:layout_marginTop="5dp"
+	android:background="@drawable/navimage_border">
+
+	<TextView
+		android:layout_height="45dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:text="CPU"
+		android:textColor="#334C8A"
+		android:paddingLeft="10dp"
+		android:paddingTop="6dp"/>
+
+</RelativeLayout>

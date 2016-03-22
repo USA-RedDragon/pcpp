@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:text="Current Part List"
+			android:background="#54547B"
+			android:textColor="#FFFFFF"
+			android:layout_marginTop="10dp"
+			android:paddingLeft="20dp"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+
+		<LinearLayout
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="CPU"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="6dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="CPU Cooler"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Motherboard"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Memory"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Storage"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Video Card"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Case"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Power Supply"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Optical Drive"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Operating System"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Software"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Monitor"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="External Storage"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Custom"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Expansion Cards / Networking"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Sound Card"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Wired Network Adapter"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Wireless Network Adapter"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Peripherals"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Headphones"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Keyboard"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Mouse"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Speakers"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Accessories / Other"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Case Fan"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Fan Controller"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="Thermal Compound"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="-5dp"
+				android:background="@drawable/navimage_border">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:text="UPS"
+					android:textColor="#334C8A"
+					android:paddingLeft="10dp"
+					android:paddingTop="10dp"/>
+
+			</RelativeLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

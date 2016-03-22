@@ -1,0 +1,37 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:background="@drawable/item_border"
+	android:layout_marginTop="10dp">
+
+	<ImageView
+		android:layout_height="55dp"
+		android:layout_width="110dp"
+		android:src="@android:drawable/ic_delete"
+		android:layout_alignParentLeft="true"
+		android:id="@+id/viewpriceImageView1"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="$369.95"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="15dp"
+		android:layout_marginRight="10dp"
+		android:id="@+id/viewpriceTextView1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="$369.95 + FREE s/h = $369.95"
+		android:layout_below="@id/viewpriceTextView1"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="5dp"
+		android:paddingTop="5dp"/>
+
+</RelativeLayout>
